@@ -43,16 +43,16 @@ docker), please visit tensorflow.org and follow the Python 3 instructions.
 	2. Anaconda comes with matplotlib built in.
 	3. In the Anaconda shell type: pip install --upgrade tensorflow
 		If you get the error "Could not find a version that satisfies the requirement (...)" try the following alternative:
-		⋅⋅* conda config --add channels conda-forge
-		⋅⋅* conda install tensorflow
+		* conda config --add channels conda-forge
+		* conda install tensorflow
 
-TEST YOUR INSTALLATION:
+### TEST YOUR INSTALLATION:
     1. git clone https://github.com/bdhobare/intro-to-tensorflow.git
     2. cd intro-to-tensorflow
     3. python3 mnist.py
-    ⋅⋅* => A window should appear displaying a graphical visualisation and you should also see training data in the terminal.
-TEST TENSORBOARD
+    * => A window should appear displaying a graphical visualisation and you should also see training data in the terminal.
+### TEST TENSORBOARD
     1. cd intro-to-tensorflow
     2. python3 tensorboard.py
     3. tensorboard --logdir=graphs
-    ⋅⋅* => Go to http://127.0.0.1:6006/. You should see the graphical representation
+    * => Go to http://127.0.0.1:6006/. You should see the graphical representation
